@@ -2,7 +2,7 @@ const request = require("request")
 
 let arguments = process.argv.slice(2) // removes "npm start"
 if (arguments.length !== 5) {
-    console.log("Usage: npm start <token> <user> <email> <password> <desired discriminator>")
+    console.log("Usage: node app.js <token> <user> <email> <password> <desired discriminator>")
 } else {
     const token = arguments[0]
     const user = arguments[1]
