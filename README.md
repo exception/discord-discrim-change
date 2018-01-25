@@ -2,7 +2,10 @@
 Change Discord discriminator via the Canary API v7.
 
 ## Usage
-`node app.js <token> <user> <email> <password> <desired discriminator>`
+```bash
+npm install
+node app.js <token> <user> <email> <password> <desired discriminator>
+```
 
 If it errors at any point, contact me via Discord Erik#1998.
 
