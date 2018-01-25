@@ -1,14 +1,14 @@
 const request = require("request")
 
-let arguments = process.argv.slice(2) // removes "npm start"
-if (arguments.length !== 5) {
+let args = process.argv.slice(2) // removes "npm start"
+if (args.length !== 5) {
     console.log("Usage: node app.js <token> <user> <email> <password> <desired discriminator>")
 } else {
-    const token = arguments[0]
-    const user = arguments[1]
-    const email = arguments[2]
-    const password = arguments[3]
-    const discrim = arguments[4]
+    const token = args[0]
+    const user = args[1]
+    const email = args[2]
+    const password = args[3]
+    const discrim = args[4]
 
     console.log("Got all necessary information, generating payload...")
 

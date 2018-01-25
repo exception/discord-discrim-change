@@ -1,6 +1,8 @@
 # discord-discrim-change
 Change Discord discriminator via the Canary API v7.
 
+**This only works for people with Discord Nitro**
+
 ## Usage
 ```bash
 npm install
