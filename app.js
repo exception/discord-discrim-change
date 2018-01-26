@@ -18,7 +18,7 @@ if (args.length !== 5) {
         "email": email,
         "password": password, 
         "discriminator": discrim, 
-         "new_password": null
+        "new_password": null
     }
 
     // Options defines what request needs to perform the PATCH
@@ -39,7 +39,7 @@ if (args.length !== 5) {
     // Send the payload,
     request(options, (err, response, body) => {
         if (!err) {
-            // doesn't return any status codes is succesful.
+            // doesn't return any status codes if succesful.
             console.log(JSON.stringify(body, null, 4))
         } else {
             // something broke, print it,
