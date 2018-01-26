@@ -15,10 +15,10 @@ if (args.length !== 5) {
     // Construct Payload
     let payload = {
         "username": user, 
-	    "email": email,
-	    "password": password, 
-	    "discriminator": discrim, 
-	    "new_password": null
+        "email": email,
+        "password": password, 
+        "discriminator": discrim, 
+         "new_password": null
     }
 
     // Options defines what request needs to perform the PATCH

@@ -1,6 +1,8 @@
 # discord-discrim-change
 Change Discord discriminator via the Canary API v7.
 
+No longer useful since this was released the same day as the API Endpoint was discovered.
+
 **This only works for people with Discord Nitro**
 
 ## Usage
